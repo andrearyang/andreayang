@@ -8,7 +8,7 @@ export default function HeadObject({children}) {
     const keywords = "andrea";
     const author = "Andrea Yang";
     const twitter = "@idkidk";
-    const url = "http://localhost:3000"; // This is your og:url or domain (optional but recommended)
+    const url = "http://andrearyang.com"; // This is your og:url or domain (optional but recommended)
     //const image = "/ogimage.png"; // This is your OpenGraph image
     return (
         <Head>

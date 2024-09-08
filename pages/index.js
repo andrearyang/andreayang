@@ -2,6 +2,28 @@ import HeadObject from '../components/head'
 import Nav from '../components/nav';
 
 export default function Home() {
+  const [theme, setTheme] = useState(null);
+
+  useEffect(() => {
+    const storedTheme = localStorage.getItem('theme');
+    if(storedTheme) {
+      document.documentElement.classList.add(storedTheme);
+      setTheme(storedTheme);
+    } else {
+      const defaultTheme = 'light';
+      document.documentElement.classList.add(defaultTheme);
+      setTheme(defaultTheme);
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    const newTheme = theme === 'dark'? 'light' : 'dark';
+    document.documentElement.classList.remove(theme);
+    document.documentElement.classList.add(newTheme);
+    localStorage.setItem('theme', newTheme);
+    setTheme(newTheme);
+  }
+  
   return (
     <div className="dark:text-white dark:bg-black">
       <HeadObject>
