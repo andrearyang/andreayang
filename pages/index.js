@@ -20,10 +20,10 @@ export default function Home() {
             <h2>Acessible education is really important to me. I also strongly believe in pursuing math and making as an art. </h2>
             <h2>I'm currently building related projects and research! Check out the other tabs to see what I've been up to. </h2> 
             <br></br>
-            <h3>Outside of that, I'm an ardent lover of Studio Ghibli, Stardew Valley, Nintendo, and boba. I find any and all things fascinating, and I'm always happy to share a good conversation with someone. </h3>
+            <h3>Outside of that, I'm an ardent lover of Studio Ghibli, Stardew Valley, Nintendo, and boba. I find any and all things fascinating, and I'm always happy to share a good conversation with someone. Thanks for visiting! </h3>
           </div>
           <div class="font-semibold text-dark-green dark:text-light-light text-3xl mt-8">
-            <h1>see you around!</h1>
+            <h1>See you around!</h1>
           </div>
         </div>
         <div className="flex flex-row flex-1 ml-20 h-[500px]">
