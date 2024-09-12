@@ -4,17 +4,24 @@ import { useTheme } from 'next-themes';
 
 const links = [
   { label: "Projects", href: "/" },
-  { label: "Writing", href: "/" },
+  { label: "Blog", href: "/" },
   { label: "Resume", href: "/" },
+  { label: "Contact", href: "/"},
 ];
 
 export default function Nav() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <nav className="dark:text-white">
+    <nav className="dark:text-white font-[Gill Sans]">
       <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
-        <li>Andrea Yang</li>
+        <li>
+          <Link href="/">
+            <button className="focus:outline-none ml-5">
+              <img src="/home.gif" alt="Andrea Yang GIF" className="w-18 h-16" />
+            </button>
+          </Link>
+        </li>
         <ul className="mx-auto sm:mx-0 flex flex-row space-x-5">
           {links.map(({ href, label }) => (
             <li className="self-center" key={`${href}${label}`}>
