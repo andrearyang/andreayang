@@ -48,6 +48,9 @@ export default function Home() {
           <div className="font-semibold text-dark-green dark:text-light-light text-3xl mt-8">
             <h1>See you around!</h1>
           </div>
+          <div className="mt-5"> 
+            <h3 className="text-[0.9rem] text-extralight italic text-sm text-dark-green dark:text-light-light"> p.s. i wasn't joking when i said i'd love to share a convo with you! reach me at andrea [at] andrearyang.com for any occasion.</h3>
+          </div>
         </div>
 
         <div className="flex flex-row flex-1 ml-40 h-[500px] space-x-10">

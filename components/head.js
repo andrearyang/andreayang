@@ -4,7 +4,7 @@ export default function HeadObject({children}) {
     const title = "Andrea Yang";
     const description = "Andrea Yang's Personal Site";
     const searchBarColor = "#ffffff"; // This is your Safari 15 Search Bar Color in Light Mode
-    //const darkSearchBarColor = "#000000"; // This is your Safari 15 Search Bar Color in Dark Mode (optional)
+    const darkSearchBarColor = "#000000"; // This is your Safari 15 Search Bar Color in Dark Mode (optional)
     const keywords = "andrea";
     const author = "Andrea Yang";
     const twitter = "@idkidk";
