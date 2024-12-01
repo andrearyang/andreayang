@@ -11,7 +11,7 @@ export default function Home() {
       <HeadObject>
         {/* You can put extra tags in here, or leave it blank */}
       </HeadObject>
-      <Nav />
+
       <div className="flex flex-row p-6 text-light-text font-bold text-7xl items-center justify-center flex-1">
         <div className="flex-1 flex flex-col ml-5 mr-55 justify-between h-full">
           <h1 className="absolute flex-1">Hi! I'm Andrea.</h1>

@@ -3,10 +3,10 @@ import { CgDarkMode } from 'react-icons/cg';
 import { useTheme } from 'next-themes';
 
 const links = [
-  { label: "Projects", href: "/" },
-  { label: "Blog", href: "/" },
-  { label: "Resume", href: "/" },
-  { label: "Contact", href: "/"},
+  { label: "Projects", href: "/projects" },
+  { label: "Blog", href: "/blog" },
+  { label: "Resume", href: "/resume" },
+  { label: "Contact", href: "/contact"},
 ];
 
 export default function Nav() {
