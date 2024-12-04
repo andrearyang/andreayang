@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div className={`${theme === 'dark' ? 'dark' : ''} min-h-screen flex flex-col`}>
       <HeadObject>
-        {/* You can put extra tags in here, or leave it blank */}
+        {}
       </HeadObject>
 
       <div className="flex flex-row p-6 text-light-text font-bold text-7xl items-center justify-center flex-1">

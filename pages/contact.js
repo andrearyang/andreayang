@@ -9,7 +9,7 @@ export default function Contact() {
     return (
         <div className={`${theme === 'dark' ? 'dark' : ''} min-h-screen flex flex-col`}>
             <HeadObject>
-                {/* You can put extra tags in here, or leave it blank */}
+
             </HeadObject>
             <Footer />
         </div>
