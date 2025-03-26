@@ -13,7 +13,7 @@ export default function Nav() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <nav className="dark:text-white font-[Gill Sans]">
+    <nav className="text-white font-[Gill Sans]">
       <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
         <li>
           <Link href="/">
@@ -27,22 +27,12 @@ export default function Nav() {
             <li className="self-center" key={`${href}${label}`}>
               <Link
                 href={href}
-                className="font-inter px-4 py-2 rounded hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10"
+                className="font-inter px-4 py-2 rounded hover:bg-white hover:bg-opacity-10"
               >
                 {label}
               </Link>
             </li>
           ))}
-          <li>
-            <button
-              onClick={() => {
-                setTheme(theme === 'dark' ? 'light' : 'dark');
-              }}
-              className="p-2 rounded-full hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10 transform duration-200"
-            >
-              <CgDarkMode size={24} />
-            </button>
-          </li>
         </ul>
       </ul>
     </nav>
