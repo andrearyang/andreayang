@@ -10,7 +10,7 @@ module.exports = {
         'dark-green': '#083332',
         'bright-green': '#8CD055',
         'green-green': '#C4E376',
-        'gray-graay': '#B3B3B3',
+        'gray-gray': '#B3B3B3',
         'darker-gray': '#FFFFFF',
         'white-gray': '#aaaaaa',
       },
