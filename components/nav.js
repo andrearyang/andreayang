@@ -13,7 +13,7 @@ export default function Nav() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <nav className="text-white font-[Gill Sans]">
+    <nav className="text-black font-inter">
       <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
         <li>
           <Link href="/">

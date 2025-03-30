@@ -7,7 +7,7 @@ export default function Resume() {
     const { theme, setTheme } = useTheme();
     
     return (
-        <div className={`${theme === 'dark' ? 'dark' : ''} min-h-screen flex flex-col`}>
+        <div className={`min-h-screen flex flex-col`}>
             <HeadObject>
                 {}
             </HeadObject>

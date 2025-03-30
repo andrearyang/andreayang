@@ -5,7 +5,7 @@ const Footer = () => {
   const [showGif, setShowGif] = useState(false);
 
   return (
-    <footer className="flex justify-center items-center mt-6 h-24 bg-gray-800 text-white">
+    <footer className="flex justify-center items-center mt-6 h-24 bg-white text-black">
       <div
         className="relative cursor-pointer"
         onMouseEnter={() => setShowGif(true)}
@@ -18,8 +18,9 @@ const Footer = () => {
           <Image
             src="/love.gif"
             alt=""
-            width={200} // Adjust width as needed
-            height={200} // Adjust height as needed
+            width={200}
+            height={200}
+            unoptimized
           />
         </div>
       </div>

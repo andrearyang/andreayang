@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 html {
-    color: #ffffff;
-    background-color: #0A1119;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 /* Fixes Tailwind h-screen on iPhones */

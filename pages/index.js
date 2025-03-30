@@ -12,16 +12,16 @@ export default function Home() {
         {}
       </HeadObject>
 
-      <div className="flex flex-row p-6 text-white font-bold text-7xl items-center justify-center flex-1">
+      <div className="flex flex-row p-6 text-black font-bold text-7xl items-center justify-center flex-1">
         <div className="flex-1 flex flex-col ml-5 mr-55 justify-between h-full">
-          <h1 className="absolute flex-1">Hi! I'm Andrea.</h1>
+          <h1 className=" absolute flex-1">Hi! I'm Andrea.</h1>
           <br />
-          <div className="relative font-normal text-gray-gray text-xl mt-8 mr-10">
+          <div className="relative font-normal text-black text-xl mt-8 mr-10">
             <h2>
               I explore{' '}
               <a
                 href="https://example.com"
-                className="hover:underline underline-offset-4 decoration-solid decoration-4 decoration-green-green text-white"
+                className="hover:underline underline-offset-4 decoration-solid decoration-4 decoration-green-green text-dark-dark"
               >
                 computation as a bridge to understanding complex biological systems, 
               </a>{' '}
@@ -31,7 +31,7 @@ export default function Home() {
             <h3> Beyond research, I'm deeply interested in {' '}
               <a
                 href="/cells"
-                className="hover:underline decoration-bright-green decoration-wavy underline-offset-4 decoration-4 text-white"
+                className="hover:underline italic decoration-bright-green decoration-wavy underline-offset-4 decoration-4 text-black"
               >
                 advocacy for accessible education in computational fields
               </a>
@@ -43,12 +43,12 @@ export default function Home() {
             </h2>
           </div>
 
-          <div className="font-semibold  text-light-light text-3xl mt-8">
+          <div className="font-semibold  text-black text-3xl mt-8">
             <h1>See you around!</h1>
           </div>
 
           <div className="mt-5"> 
-            <h3 className="text-[0.9rem] text-extralight italic text-sm text-light-light"> p.s. i wasn't joking when i said i'd love to talk to you; reach me at andrea [at] andrearyang.com for any occasion.</h3>
+            <h3 className="text-[0.9rem] text-extralight italic text-sm text-black"> p.s. i wasn't joking when i said i'd love to talk to you; reach me at andrea [at] andrearyang.com for any occasion.</h3>
           </div>
 
         </div>
