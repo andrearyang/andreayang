@@ -5,7 +5,7 @@ const Footer = () => {
   const [showGif, setShowGif] = useState(false);
 
   return (
-    <footer className="flex justify-center items-center mt-6 h-24 bg-white text-black">
+    <footer className="flex justify-center items-center mt-2 h-24 bg-white text-black">
       <div
         className="relative cursor-pointer"
         onMouseEnter={() => setShowGif(true)}

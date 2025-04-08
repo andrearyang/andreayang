@@ -7,50 +7,60 @@ export default function Home() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className={`min-h-screen flex flex-col`}>
+    <div className={`flex flex-col`}>
       <HeadObject>
         {}
       </HeadObject>
 
-      <div className="flex flex-row p-6 text-black font-bold text-7xl items-center justify-center flex-1">
-        <div className="flex-1 flex flex-col ml-5 mr-55 justify-between h-full">
-          <h1 className=" absolute flex-1">Hi! I'm Andrea.</h1>
-          <br />
-          <div className="relative font-normal text-black text-xl mt-8 mr-10">
+      <div className="flex flex-col lg:flex-row p-6 text-black font-bold text-4xl sm:text-5xl lg:text-6xl justify-center">
+        <div className="max-w-screen-lg flex flex-col ml-5 lg:mr-55">
+          <h1 className="mb-2 lg:mb-4">Hi! I'm Andrea.</h1>
+          <div className="font-normal text-black text-lg mt-2 lg:mt-4 mr-10">
             <h2>
               I explore{' '}
               <a
                 href="https://example.com"
-                className="hover:underline underline-offset-4 decoration-solid decoration-4 decoration-green-green text-dark-dark"
+                className="underline underline-offset-4 decoration-solid decoration-2 decoration-dark-green text-dark-green"
               >
-                computation as a bridge to understanding complex biological systems, 
+                AI/ML & computation 
               </a>{' '}
-              using quantitative genetics to advance disease treatment. My work is driven by a fundamental curiosity about how we can use computation to reveal patterns, optimize complexity, and ultimately expand what is possible in science and medicine with technology.{' '}
-            </h2>
-
-            <h3> Beyond research, I'm deeply interested in {' '}
+              as a bridge to understanding complex systems. My work is driven by a fundamental curiosity about how we can use computation to reveal patterns, optimize complexity, and ultimately expand what is possible in science with technology. Beyond theory, I'm deeply interested in advocacy for {' '}
               <a
                 href="/cells"
-                className="hover:underline italic decoration-bright-green decoration-wavy underline-offset-4 decoration-4 text-black"
+                className="underline decoration-dark-green decoration-solid underline-offset-4 decoration-2 text-dark-green"
               >
-                advocacy for accessible education in computational fields
+                accessible education in computational fields
               </a>
               &nbsp;and ensuring that knowledge, tools, and healthcare are equitably available to all.
-            </h3>
-
-            <h2>
+            </h2>
+            <h2 className="mt-4">
               I'm continually building, making, questioning, and learning. Feel free to explore my work or reach out—I'd love to share what I've been thinking about.
             </h2>
-          </div>
+            <div className="mt-4">
+              <a
+                href="mailto:andrea@andrearyang.com"
+                className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green"
+              >
+                Email
+              </a> •{' '}
+              <a
+                href="https://github.com/andrearyang"
+                className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green"
+              >
+                GitHub
+              </a> •{' '}
+              <a
+                href="https://substack.com/andreaeaceae"
+                className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green"
+              >
+                Substack
+              </a>
 
-          <div className="font-semibold  text-black text-3xl mt-8">
-            <h1>See you around!</h1>
+              <div className="mt-5 text-left">
+                <img src="/signature.png" alt="Andrea Yang Signature" className="w-48 h-auto" />
+              </div>
+            </div>
           </div>
-
-          <div className="mt-5"> 
-            <h3 className="text-[0.9rem] text-extralight italic text-sm text-black"> p.s. i wasn't joking when i said i'd love to talk to you; reach me at andrea [at] andrearyang.com for any occasion.</h3>
-          </div>
-
         </div>
       </div>
       <Footer />
