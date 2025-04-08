@@ -50,7 +50,7 @@ export default function Home() {
                 GitHub
               </a> •{' '}
               <a
-                href="https://substack.com/andreaeaceae"
+                href="https://andreaeaceae.substack.com"
                 className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green"
               >
                 Substack
