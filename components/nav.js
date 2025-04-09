@@ -22,6 +22,7 @@ export default function Nav() {
             </button>
           </Link>
         </li>
+        {/*
         <ul className="mx-auto sm:mx-0 flex flex-row space-x-5">
           {links.map(({ href, label }) => (
             <li className="self-center" key={`${href}${label}`}>
@@ -34,6 +35,7 @@ export default function Nav() {
             </li>
           ))}
         </ul>
+        */}
       </ul>
     </nav>
   );
