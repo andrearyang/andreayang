@@ -19,7 +19,7 @@ export default function Home() {
             <h2>
               I explore{' '}
               <a
-                href="https://example.com"
+                href="/cell"
                 className="underline underline-offset-4 decoration-solid decoration-2 decoration-dark-green text-dark-green"
               >
                 AI/ML & computation 
