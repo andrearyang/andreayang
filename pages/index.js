@@ -24,7 +24,7 @@ export default function Home() {
               >
                 AI/ML & computation 
               </a>{' '}
-              as a bridge to understanding complex systems. My work is driven by a fundamental curiosity about how we can use computation to reveal patterns, optimize complexity, and ultimately expand what is possible in science with technology. Beyond theory, I'm deeply interested in advocacy for {' '}
+              as a bridge to understanding complex biological systems. My work is driven by a fundamental curiosity about how we can use computation to reveal patterns, optimize complexity, and ultimately expand what is possible in biology with technology. Beyond theory, I'm deeply interested in advocacy for {' '}
               <a
                 href="/cells"
                 className="underline decoration-dark-green decoration-solid underline-offset-4 decoration-2 text-dark-green"
