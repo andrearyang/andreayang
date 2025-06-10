@@ -31,7 +31,7 @@ export default function Home() {
               >
                 accessible education in computational fields
               </a>
-              &nbsp;and ensuring that knowledge, tools, and healthcare are equitably available to all.
+              &nbsp;and ensuring that knowledge, tools, and healthcare are equitably available to all. Currently, I'm working on conditional diffusion to predict brain age & mathematically modeling Tet circuits to investigate gene expression.
             </h2>
             <h2 className="mt-4">
               I'm continually building, making, questioning, and learning. Feel free to explore my work or reach out—I'd love to share what I've been thinking about.
