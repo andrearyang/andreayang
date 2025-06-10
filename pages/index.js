@@ -24,14 +24,14 @@ export default function Home() {
               >
                 AI/ML & computation 
               </a>{' '}
-              as a bridge to understanding complex biological systems. My work is driven by a fundamental curiosity about how we can use computation to reveal patterns, optimize complexity, and ultimately expand what is possible in biology with technology. Beyond theory, I'm deeply interested in advocacy for {' '}
+              as a bridge to understanding complex biological systems. Currently, I'm working on conditional diffusion to predict brain age & mathematically modeling gene circuits to investigate gene expression. Beyond theory, I'm deeply interested in advocacy for {' '}
               <a
                 href="/cells"
                 className="underline decoration-dark-green decoration-solid underline-offset-4 decoration-2 text-dark-green"
               >
                 accessible education in computational fields
               </a>
-              &nbsp;and ensuring that knowledge, tools, and healthcare are equitably available to all. Currently, I'm working on conditional diffusion to predict brain age & mathematically modeling Tet circuits to investigate gene expression.
+              &nbsp;and ensuring that knowledge, tools, and healthcare are equitably available to all.
             </h2>
             <h2 className="mt-4">
               I'm continually building, making, questioning, and learning. Feel free to explore my work or reach out—I'd love to share what I've been thinking about.
