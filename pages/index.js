@@ -24,7 +24,7 @@ export default function Home() {
               >
                 AI/ML & computation 
               </a>{' '}
-              as a bridge to understanding complex biological systems. Currently, I'm working on conditional diffusion to understand brain aging development & mathematically modeling gene circuits to investigate gene expression. Beyond theory, I'm deeply interested in advocacy for {' '}
+              as a bridge to understanding complex biological systems. Currently, I'm working on neural operators & mathematically modeling gene circuits to investigate gene expression. Beyond theory, I'm deeply interested in advocacy for {' '}
               <a
                 href="/cells"
                 className="underline decoration-dark-green decoration-solid underline-offset-4 decoration-2 text-dark-green"
