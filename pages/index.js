@@ -13,7 +13,7 @@ export default function Home() {
       </HeadObject>
 
       <div className="flex flex-col lg:flex-row p-6 text-black font-bold text-4xl sm:text-5xl lg:text-6xl justify-center">
-        <div className="max-w-screen-lg flex flex-col ml-5 lg:mr-55">
+        <div className="max-w-screen-lg flex flex-col ml-5 lg:mr-55"> <br></br>
           <h1 className="mb-2 lg:mb-4">Hi! I'm Andrea.</h1>
           <div className="font-normal text-black text-lg mt-2 lg:mt-4 mr-10">
             <h2>
@@ -56,15 +56,15 @@ export default function Home() {
                 Substack
               </a> •{' '}
 
-              <a>
-                href="https://open.spotify.com/user/ombujdfrcgap0rdbh3f6y0m0t?si=e83e2f0ebb5840c8"
-                className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green"
+              <a href="https://open.spotify.com/user/ombujdfrcgap0rdbh3f6y0m0t?si=e83e2f0ebb5840c8"
+                className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green" >
+                Spotify
               </a>
 
               <div className="mt-5 text-left">
                 <img src="/signature.png" alt="Andrea Yang Signature" className="w-48 h-auto" />
               </div>
-
+              
             </div>
           </div>
         </div>
