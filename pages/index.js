@@ -54,11 +54,17 @@ export default function Home() {
                 className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green"
               >
                 Substack
+              </a> •{' '}
+
+              <a>
+                href="https://open.spotify.com/user/ombujdfrcgap0rdbh3f6y0m0t?si=e83e2f0ebb5840c8"
+                className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green"
               </a>
 
               <div className="mt-5 text-left">
                 <img src="/signature.png" alt="Andrea Yang Signature" className="w-48 h-auto" />
               </div>
+
             </div>
           </div>
         </div>
