@@ -3,10 +3,7 @@ import { CgDarkMode } from 'react-icons/cg';
 import { useTheme } from 'next-themes';
 
 const links = [
-  { label: "Projects", href: "/projects" },
-  { label: "Blog", href: "/blog" },
-  { label: "Resume", href: "/resume" },
-  { label: "Contact", href: "/contact"},
+  // { label: "blog", href: "/blog" },
 ];
 
 export default function Nav() {
@@ -22,20 +19,20 @@ export default function Nav() {
             </button>
           </Link>
         </li>
-        {/*
-        <ul className="mx-auto sm:mx-0 flex flex-row space-x-5">
+        {
+        /* <ul className="mx-auto sm:mx-0 flex flex-row space-x-5">
           {links.map(({ href, label }) => (
             <li className="self-center" key={`${href}${label}`}>
               <Link
-                href={href}
+                href="/blog"
                 className="font-inter px-4 py-2 rounded hover:bg-white hover:bg-opacity-10"
               >
                 {label}
               </Link>
             </li>
           ))}
-        </ul>
-        */}
+        </ul> */
+        }
       </ul>
     </nav>
   );
