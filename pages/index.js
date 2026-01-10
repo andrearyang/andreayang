@@ -59,6 +59,16 @@ export default function Home() {
               <a href="https://open.spotify.com/user/ombujdfrcgap0rdbh3f6y0m0t?si=e83e2f0ebb5840c8"
                 className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green" >
                 Spotify
+              </a> •{' '}
+
+              <a href="https://x.com/andrearyang"
+                className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green" >
+                X
+              </a> •{' '}
+
+              <a href="https://andrearyang.com/blog"
+                className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green" >
+                Blog
               </a>
 
               <div className="mt-5 text-left">
