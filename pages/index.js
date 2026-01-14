@@ -64,13 +64,7 @@ export default function Home() {
               <a href="https://x.com/andrearyang"
                 className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green" >
                 X
-              </a> •{' '}
-
-              <a href="https://andrearyang.com/blog"
-                className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green" >
-                Blog
-              </a>
-
+              </a> 
               <div className="mt-5 text-left">
                 <img src="/signature.png" alt="Andrea Yang Signature" className="w-48 h-auto" />
               </div>
