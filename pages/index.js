@@ -38,7 +38,7 @@ export default function Home() {
             </h2>
             <div className="mt-4">
               <a
-                href="mailto:andrea@andrearyang.com"
+                href="mailto:andreaea@mit.edu"
                 className="underline underline-offset-4 decoration-solid decoration-3 decoration-dark-green text-dark-green"
               >
                 Email
