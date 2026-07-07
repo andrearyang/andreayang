@@ -67,7 +67,7 @@ export default function Home() {
               </a> 
               <div className="mt-5 text-left">
                 <img src="/signature.png" alt="Andrea Yang Signature" className="w-48 h-auto" />
-                <p className="text-xs text-gray-400 italic mt-1 tracking-wider">joie de vivre!</p>
+                <p className="text-xs text-gray-400 italic mt-1 tracking-wider">"I have a new love for that glittering instrument, the human soul...It is always attacked and never destroyed–because ‘Thou mayest.’"</p>
               </div>
               
             </div>
