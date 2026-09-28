@@ -14,7 +14,7 @@ export default function Home() {
 
       <div className="flex flex-grow flex-col lg:flex-row p-6 text-black font-bold text-4xl sm:text-5xl lg:text-6xl justify-center">
         <div className="max-w-screen-lg flex flex-col ml-5 lg:mr-55"> 
-          <div className="h-2 lg:h-4" />
+          <div className="h-4 lg:h-6" />
           <h1 className="mb-2 lg:mb-4">Andrea Yang</h1>
           <div className="font-normal text-black text-lg mt-2 lg:mt-4 mr-10">
             
