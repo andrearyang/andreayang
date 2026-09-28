@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
             <Layout>
                 <div className="min-h-screen flex flex-col">
                     <Nav />
-                    <main className="flex-grow">
+                    <main className="flex-grow flex flex-col">
                         <Component {...pageProps} />
                     </main>
                 </div>

@@ -7,34 +7,39 @@ export default function Home() {
   const { theme, setTheme } = useTheme();
 
   return (
-    <div className={`flex flex-col`}>
+    <div className={`flex flex-col flex-grow`}>
       <HeadObject>
         {}
       </HeadObject>
 
-      <div className="flex flex-col lg:flex-row p-6 text-black font-bold text-4xl sm:text-5xl lg:text-6xl justify-center">
-        <div className="max-w-screen-lg flex flex-col ml-5 lg:mr-55"> <br></br>
+      <div className="flex flex-grow flex-col lg:flex-row p-6 text-black font-bold text-4xl sm:text-5xl lg:text-6xl justify-center">
+        <div className="max-w-screen-lg flex flex-col ml-5 lg:mr-55"> 
+          <div className="h-2 lg:h-4" />
           <h1 className="mb-2 lg:mb-4">Andrea Yang</h1>
           <div className="font-normal text-black text-lg mt-2 lg:mt-4 mr-10">
+            
             <h2>
-              I explore{' '}
+              I like writing, decorating rooms,
+              {' '}
               <a
                 href="/cell"
                 className="underline underline-offset-4 decoration-solid decoration-2 decoration-dark-green text-dark-green"
               >
-                AI/ML & computation 
+                AI & computers, 
               </a>{' '}
-              as a bridge to understanding complex biological systems. Beyond theory, I'm deeply interested in advocacy for {' '}
-              <a
-                href="/cells"
-                className="underline decoration-dark-green decoration-solid underline-offset-4 decoration-2 text-dark-green"
-              >
-                accessible education in computational fields
-              </a>
-              &nbsp;and ensuring that knowledge, tools, and healthcare are equitably available to all.
+              computation, games, drawing, and probably too many other things to list here. I like making things, improving things, and figuring out how things work. More than anything, I want to make the world a better place. {' '}
+              
             </h2>
             <h2 className="mt-4">
-              I'm continually building, making, questioning, and learning. Feel free to explore my work or reach out—I'd love to share what I've been thinking about.
+              Currently, I'm studying EECS + philosophy at MIT. Previously, I worked on neural operators, mathematical models, and
+              {' '}
+              <a
+                href="https://athena.hackclub.com"
+                className="underline decoration-dark-green decoration-solid underline-offset-4 decoration-2 text-dark-green"
+              >
+                community-accessible education in computational fields.
+              </a>
+              &nbsp;I'm continually building, making, questioning, and learning. Feel free to explore my work or reach out—I'd love to share what I've been thinking about.
             </h2>
             <div className="mt-4">
               <a
@@ -74,7 +79,9 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <Footer />
+        <div className = "pb-10">
+          <Footer />
+        </div>
     </div>
   );
 }
